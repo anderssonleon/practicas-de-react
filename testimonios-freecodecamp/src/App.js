@@ -1,5 +1,5 @@
 import './App.css';
-import Testimonio from './componentes/testimonio.js';
+import Testimonio from './componentes/testimonio';
 
 function App() {
   return (
@@ -12,7 +12,10 @@ function App() {
       imagen='shon'
       cargo='Software Engineer'
       empresa=' Amazon'
-      testimonio='It scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer. freeCodeCamp changed my life.'/>
+      testimonio='It scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer. freeCodeCamp changed my life.'
+      />
+
+
       <Testimonio
        nombre='Sarah Chima'
        pais='Nigeria'

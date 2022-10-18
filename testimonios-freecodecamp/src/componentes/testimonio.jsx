@@ -1,4 +1,3 @@
-import React from "react";
 import '../stylesheets/testimonio.css'
 function Testimonio(props) {
   return(
@@ -6,7 +5,7 @@ function Testimonio(props) {
        <img 
        className='imagen-testimonio'
       src={require(`../imagenes/testimonio-${props.imagen}.png`)}
-      alt='foto de ema'/>
+      alt={props.nombre}/>
       <div className="contenedor-texto-testimonio">
         <p className="nombre-testimonio">
         <strong>{props.nombre}</strong> en 
