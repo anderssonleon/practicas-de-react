@@ -9,9 +9,7 @@ import { useState } from 'react';
 
 function App() {
     
-
   const [numClicks,setNumClicks] = useState(0);
-
 
  const manejarClick = ()=>{
       setNumClicks(numClicks + 1);
@@ -50,3 +48,4 @@ function App() {
 }
 
 export default App;
+ 
